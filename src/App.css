@@ -41,5 +41,5 @@
   color: #888;
 } */
 #app{
-  background-image: url(assets/bg.jpg);
+  background: url(assets/bg.jpg);
 }

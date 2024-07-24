@@ -16,6 +16,6 @@ export default function Protected({children,authentication=true}){
         }
         setLoader(false)
     },[authStatus,authentication,navigate])
-    return loader ? <h1>Loading...</h1> : <>{children}</>
+    return loader ? <h1 className="text-2xl font-bold hover:text-gray-500">Loading...</h1> : <>{children}</>
 
 }
